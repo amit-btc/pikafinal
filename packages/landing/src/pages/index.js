@@ -1,17 +1,20 @@
-import React, { Fragment } from "react";
-import Head from "next/head";
-import Sticky from "react-stickynode";
-import { ThemeProvider } from "styled-components";
-import { cryptoTheme } from "common/theme/crypto";
-import { ResetCSS } from "common/assets/css/style";
-import { GlobalStyle, ContentWrapper } from "containers/Crypto/crypto.style";
-import { DrawerProvider } from "common/contexts/DrawerContext";
-import Navbar from "containers/Crypto/Navbar";
-import Banner from "./BgSection";
-import Footer from "containers/Crypto/Footer";
-import PikaCards from "./PikaCards";
-import Tokenomics from "./Tokenomics";
-import OurTeam from "./OurTeam";
+import React, { Fragment } from 'react';
+import Head from 'next/head';
+import dynamic from 'next/dynamic';
+import Sticky from 'react-stickynode';
+import { ThemeProvider } from 'styled-components';
+import { cryptoTheme } from 'common/theme/crypto';
+import { ResetCSS } from 'common/assets/css/style';
+import { GlobalStyle, ContentWrapper } from 'containers/Crypto/crypto.style';
+import { DrawerProvider } from 'common/contexts/DrawerContext';
+const Navbar = dynamic(() => import('containers/Crypto/Navbar'), {
+  ssr: false,
+});
+import Banner from './BgSection';
+import Footer from 'containers/Crypto/Footer';
+import PikaCards from './PikaCards';
+import Tokenomics from './Tokenomics';
+import OurTeam from './OurTeam';
 
 const Crypto = () => {
   return (
@@ -38,14 +41,14 @@ const Crypto = () => {
           </Sticky>
           <Banner />
           <div className="mainbg2" id="pikas">
-            <PikaCards id="pikas"/>
+            <PikaCards id="pikas" />
           </div>
 
           <div className="mainbg3" id="tokenomics">
-            <Tokenomics id="tokenomics"/>
+            <Tokenomics id="tokenomics" />
           </div>
           <div className="mainbg4" id="team">
-            <OurTeam id="team"/>
+            <OurTeam id="team" />
           </div>
           <Footer />
         </ContentWrapper>

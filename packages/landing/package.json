@@ -18,9 +18,14 @@
     "@reach/accordion": "^0.11.2",
     "@redq/reuse-modal": "^1.1.9",
     "@styled-system/theme-get": "^5.1.2",
+    "@toruslabs/torus-embed": "^1.9.14",
+    "@walletconnect/web3-provider": "^1.4.1",
+    "authereum": "^0.1.14",
+    "bitski": "^0.10.9",
     "bootstrap": "^4.6.0",
     "firebase-admin": "^9.4.1",
     "firebase-functions": "^3.11.0",
+    "fortmatic": "^2.2.1",
     "next": "^10.0.1",
     "next-compose-plugins": "^2.2.1",
     "next-fonts": "1.5.1",
@@ -54,6 +59,7 @@
     "styled-components": "^5.2.1",
     "styled-system": "5.1.5",
     "swiper": "^6.4.11",
+    "web3": "^1.3.5",
     "web3modal": "^1.9.3"
   },
   "devDependencies": {
