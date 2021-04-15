@@ -1,0 +1,194 @@
+#hero {
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+.layer {
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-image: url(https://uploads-ssl.webflow.com/606a019…/606a021…_sky-main.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.first-section {
+    padding: 50px 0 20px 0;
+}
+.text-header {
+    font-size: 50px;
+    text-align: center;
+}
+h1 {
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+p {
+    color: #ede0d5;
+    font-size: 18px;
+    line-height: 150%;
+}
+#hero, .layer {
+    min-height: 100vh;
+}
+.layer-bg {
+    background-image: url("./bg1.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.layer-1 {
+    background-image: url("./bg2.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+    .layer-1 {
+        background-image: url("./bg2.png") fit;
+   }
+}
+.layer-2 {
+    background-image: url("./bg3.png");
+    background-position: 100% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.heading-text {
+    position: absolute;
+    top: 50%;
+    left: 13vw;
+    right: auto;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.heading-text .heading {
+    font-size: 8vw !important;
+}
+@media (max-width: 768px) {
+    .heading-text .heading {
+        font-size: 20vw !important;
+   }
+}
+.heading-text .para-desc {
+    font-size: 0.9vw;
+    padding: 3px 10px;
+    color: #fff !important;
+}
+@media (max-width: 768px) {
+    .heading-text .para-desc {
+        font-size: 3vw !important;
+   }
+}
+.mainbg2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0e0d2d), color-stop(99%, #1b1e60), to(#1b1e61));
+    background-image: linear-gradient(180deg, #0e0d2d, #1b1e60 99%, #1b1e61);
+    min-height: 100vh;
+    padding-top: 4em;
+}
+.mainbg3 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0e0d2d), color-stop(99%, #1b1e60), to(#1b1e61));
+    background-image: linear-gradient(180deg, #0e0d2d, #1b1e60 99%, #1b1e61);
+    min-height: 70vh;
+    padding-top: 4em;
+}
+.mainbg4{
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0e0d2d), color-stop(99%, #1b1e60), to(#1b1e61));
+    background-image: linear-gradient(180deg, #0e0d2d, #1b1e60 99%, #1b1e61);
+    min-height: 130vh;
+    padding-top: 4em;
+}
+.pikacardsrow .card1, .pikacardsrow .card2, .pikacardsrow .card3 {
+    background-color: #463db2;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+.pikacardsrow .card1 .card-title, .pikacardsrow .card2 .card-title, .pikacardsrow .card3 .card-title {
+    font-size: 24px !important;
+}
+.pikacardsrow .card1 .text-muted, .pikacardsrow .card2 .text-muted, .pikacardsrow .card3 .text-muted {
+    color: #fff !important;
+}
+.pikacardsrow .card1 {
+    border-bottom: 10px solid #ce3434;
+}
+.pikacardsrow .card2 {
+    border-bottom: 10px solid #7b98da;
+}
+.pikacardsrow .card2 {
+    border-bottom: 10px solid #f9a251;
+}
+.pikacardsrow img {
+    height: 400px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pikacardsrow .grow {
+    transition: all 0.2s ease-in-out;
+}
+.pikacardsrow .grow .card-left-heading-block {
+    text-align: left;
+    margin-left: 1em;
+}
+.pikacardsrow .grow .card-left-heading-number {
+    color: #fff;
+    font-size: 48px;
+}
+.pikacardsrow .grow .card-left-heading-sep, .pikacardsrow .grow .card-left-heading {
+    color: red;
+}
+.pikacardsrow .grow .card-left-heading-sep {
+    margin: 0 3px;
+}
+.pikacardsrow .grow .card-left-heading {
+    font-size: 24px;
+}
+.pikacardsrow .grow:hover {
+    transform: scale(1.1);
+}
+.section-heading {
+    color: #fff;
+    border-bottom: 1px solid #7b98da;
+    margin-bottom: 3em;
+}
+.section-heading .left-block {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.section-heading .left-block h2 {
+    font-size: 38px;
+}
+.section-heading .right-block {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 38px;
+}
+.section-heading .right-block .text-right-heading-sep {
+    margin: 0 4px;
+}
+.section-heading .right-block .text-right-heading-number {
+    color: red;
+}
+#footerSection{
+    padding-top:3em;
+    background-image: none;
+    background-color: #0e0d2d;
+}
