@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
-import { theme } from 'common/theme/appModern';
+import { theme } from 'common/theme/cryptoModern';
 import { ResetCSS } from 'common/assets/css/style';
 import Sticky from 'react-stickynode';
 import Navbar from 'containers/CryptoModern/Navbar';

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import searchIcon from 'common/assets/image/appClassic/search.svg';
+// import searchIcon from "common/assets/image/saasClassic/search.svg";
 
 const NavbarWrapper = styled.nav`
   width: 100%;
@@ -174,7 +174,7 @@ export const Search = styled.div`
     font-size: 15px;
     color: ${themeGet('colors.menu', '0D233E')};
     background-color: ${themeGet('colors.light', '#FAFBFF')};
-    background-image: url(${searchIcon});
+    /* background-image: url(${searchIcon}); */
     background-repeat: no-repeat;
     background-position: calc(100% - 15px) center;
     background-size: 16px;

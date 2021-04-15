@@ -12,9 +12,9 @@ import Button from 'common/components/Button';
 import Image from 'common/components/Image';
 import LoginModalWrapper from './loginModal.style';
 import 'rc-tabs/assets/index.css';
-import LogoImage from 'common/assets/image/agency/logo.png';
-import LoginImage from 'common/assets/image/agency/login-bg.jpg';
-import GoogleLogo from 'common/assets/image/agency/google-icon.jpg';
+// import LogoImage from "common/assets/image/agency/logo.png";
+// import LoginImage from 'common/assets/image/agency/login-bg.jpg';
+// import GoogleLogo from "common/assets/image/agency/google-icon.jpg";
 
 const LoginModal = ({
   row,
@@ -46,11 +46,11 @@ const LoginModal = ({
     <LoginModalWrapper>
       <Box className="row" {...row}>
         <Box className="col imageCol" {...col}>
-          <Image className="patternImage" src={LoginImage} alt="Login Banner" />
+          {/* <Image className="patternImage" src={LoginImage} alt="Login Banner" /> */}
         </Box>
         <Box className="col tabCol" {...col}>
           <Box {...contentWrapper}>
-            <Image src={LogoImage} {...logoStyle} alt="Logo" />
+            {/* <Image src={LogoImage} {...logoStyle} alt="Logo" /> */}
             <Tabs
               defaultActiveKey="loginForm"
               animated={{ tabPane: true }}
@@ -64,7 +64,7 @@ const LoginModal = ({
                   {...descriptionStyle}
                 />
                 <Button
-                  icon={<Image src={GoogleLogo} alt="Google Icon" />}
+                  // icon={<Image src={GoogleLogo} alt="Google Icon" />}
                   title="Sign in with Google"
                   iconPosition="left"
                   className="google-login__btn"
