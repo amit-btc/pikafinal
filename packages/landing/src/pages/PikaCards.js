@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import { Card, CardBody, Col, Container, Row } from "reactstrap";
+import React, { Component } from 'react';
+import { Card, CardBody, Col, Container, Row } from 'reactstrap';
 
 //import image
-import card1 from "./card1.png";
-import card2 from "./card2.png";
-import comingsoon from "./comingsoon.png";
+import card1 from './card1.png';
+import card2 from './card2.png';
+import comingsoon from './comingsoon.png';
 
 export default class Feature extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class Feature extends Component {
           </Row>
           <Row className="pikacardsrow">
             <Col lg={4} xs={12} className="mt-4 pt-2">
-              <Card className="shadow rounded border-0 overflow-hidden card1 grow">
+              <Card className="shadow rounded overflow-hidden card1 grow">
                 <span className="card-left-heading-block">
                   <span className="card-left-heading-number">01</span>
                   <span className="card-left-heading-sep">/</span>
@@ -40,7 +40,7 @@ export default class Feature extends Component {
               </Card>
             </Col>
             <Col lg={4} xs={12} className="mt-4 pt-2 ">
-              <Card className="shadow rounded border-0 overflow-hidden card2 grow">
+              <Card className="shadow rounded overflow-hidden card2 grow">
                 <span className="card-left-heading-block">
                   <span className="card-left-heading-number">02</span>
                   <span className="card-left-heading-sep">/</span>
@@ -57,7 +57,7 @@ export default class Feature extends Component {
               </Card>
             </Col>
             <Col lg={4} xs={12} className="mt-4 pt-2 ">
-              <Card className="shadow rounded border-0 overflow-hidden card3 grow">
+              <Card className="shadow rounded overflow-hidden card3 grow">
                 <span className="card-left-heading-block">
                   <span className="card-left-heading-number">03</span>
                   <span className="card-left-heading-sep">/</span>
