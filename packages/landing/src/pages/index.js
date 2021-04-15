@@ -8,11 +8,6 @@ import { GlobalStyle, ContentWrapper } from "containers/Crypto/crypto.style";
 import { DrawerProvider } from "common/contexts/DrawerContext";
 import Navbar from "containers/Crypto/Navbar";
 import Banner from "./BgSection";
-import ControlSections from "containers/Crypto/ControlSection";
-import TrustedProofSections from "containers/Crypto/TrustedProof";
-import ScalableSections from "containers/Crypto/ScalableSection";
-import SlideSections from "containers/Crypto/CryptoSlides";
-import BetaSections from "containers/Crypto/BetaSection";
 import Footer from "containers/Crypto/Footer";
 import PikaCards from "./PikaCards";
 import Tokenomics from "./Tokenomics";
@@ -23,7 +18,7 @@ const Crypto = () => {
     <ThemeProvider theme={cryptoTheme}>
       <Fragment>
         <Head>
-          <title>Amit</title>
+          <title>PikaPad </title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
 
