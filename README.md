@@ -1,5 +1,8 @@
 # Installation
 
+
+Goto `Superprops/packages/landing` and run yarn start 
+
 After downloading the file from Themeforest, You will find SuperProps.zip file. Then unzip the SuperProps.zip and run the following commands on SuperProps folder to get started with the project.
 
 ```
